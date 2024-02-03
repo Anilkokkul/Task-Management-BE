@@ -14,5 +14,5 @@ This repository contains the backend for a task management app, built using Node
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Anilkokkul/Task-Management-BE.git
-   cd task-management-backend
+   cd Task-Management-BE
    ```
