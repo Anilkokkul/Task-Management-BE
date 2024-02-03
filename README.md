@@ -8,13 +8,11 @@ This repository contains the backend for a task management app, built using Node
   - **/routes**: Defines the API routes for task CRUD operations.
   - **/controllers**: Implements the logic for handling API requests.
   - **/models**: Represents the data models for tasks.
-  - **/middlewares**: Houses middleware functions for error handling and request validation.
-- **/config**: Configuration files for the project.
-- **/tests**: Unit tests for the API endpoints.
 
 ## Setup Instructions
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/task-management-backend.git
+   git clone https://github.com/Anilkokkul/Task-Management-BE.git
    cd task-management-backend
+   ```
