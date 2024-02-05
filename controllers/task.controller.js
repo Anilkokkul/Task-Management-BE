@@ -28,7 +28,7 @@ exports.createTask = async (req, res) => {
 
 exports.getAllTasks = async (req, res) => {
   try {
-    await Tasks.find()
+    Tasks.find()
       .then((data) => {
         res.status(200).send({
           message: "Tasks retrieved successfully",
