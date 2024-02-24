@@ -54,7 +54,7 @@ exports.loginUser = async (req, res) => {
 
     if (!existUser) {
       return res.status(401).send({
-        message: "Entered emil is not a registered email address",
+        message: "Entered email is not a registered email address",
       });
     }
     if (bcrypt.compareSync(password, existUser.hashedPassword)) {

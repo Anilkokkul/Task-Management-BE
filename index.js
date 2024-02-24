@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+const cors = require("cors");
+var cookieParser = require("cookie-parser");
 const { db } = require("./db/db");
 require("dotenv").config();
 const taskRoutes = require("./routes/task.routes");
@@ -7,6 +9,8 @@ const userRoutes = require("./routes/user.routes");
 
 db();
 app.use(express.json());
+app.use(cors());
+app.use(cookieParser());
 app.use(taskRoutes);
 app.use(userRoutes);
 
